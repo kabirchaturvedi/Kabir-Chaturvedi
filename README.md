@@ -1,5 +1,5 @@
 # Kabir Chaturvedi's Portfolio Website
-
+https://kabirchaturvedi.github.io/Kabir-Chaturvedi/
 
 Welcome to the GitHub repository for my personal portfolio website. This site serves as a dynamic showcase of my expertise and projects in the fields of data science, machine learning, and artificial intelligence. As a dedicated professional with a robust educational background from Indiana University Bloomington and NMIMS University, I specialize in harnessing the power of Python, SQL, and various data science tools to drive analytical solutions and innovative project outcomes.
 
