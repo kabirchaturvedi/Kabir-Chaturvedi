@@ -11,15 +11,14 @@ menuIcon.onclick = () => {
 document.addEventListener('DOMContentLoaded', function() {
     const contactButton = document.querySelector('.btn-box a[href^="mailto:"]');
     contactButton.addEventListener('click', function(event) {
-        // You can set subject and body dynamically if needed
-        const subject = encodeURIComponent("Exciting Opportunity! We'd like to offer you the position of ...");
-        const body = encodeURIComponent("Dear Kabir,\n\nWe are pleased to extend the following offer to you...");
-        this.href = `mailto:kabirschaturvedi@gmail.com?subject=${subject}&body=${body}`;
+        // Remove subject and body to redirect without pre-filled content
+        this.href = 'mailto:kabirschaturvedi@gmail.com';
         
         // Log or handle the click event as needed
         console.log("Contact Me button was clicked.");
     });
 });
+
 
 
 window.onscroll = () => {
