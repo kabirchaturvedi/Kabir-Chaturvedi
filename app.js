@@ -8,16 +8,16 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active')
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const contactButton = document.querySelector('.btn-box a[href^="mailto:"]');
-    contactButton.addEventListener('click', function(event) {
-        // Remove subject and body to redirect without pre-filled content
-        this.href = 'mailto:kabirschaturvedi@gmail.com';
+// document.addEventListener('DOMContentLoaded', function() {
+//     const contactButton = document.querySelector('.btn-box a[href^="mailto:"]');
+//     contactButton.addEventListener('click', function(event) {
+//         // Remove subject and body to redirect without pre-filled content
+//         this.href = 'mailto:kabirschaturvedi@gmail.com';
         
-        // Log or handle the click event as needed
-        console.log("Contact Me button was clicked.");
-    });
-});
+//         // Log or handle the click event as needed
+//         console.log("Contact Me button was clicked.");
+//     });
+// });
 
 
 
